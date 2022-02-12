@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a092d5a82c7462b981b0b5cfcec56d6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9a092d5a82c7462b981b0b5cfcec56d6" ></div>
+        
+</body>
+<script>    
+    
+            var map_9a092d5a82c7462b981b0b5cfcec56d6 = L.map(
+                "map_9a092d5a82c7462b981b0b5cfcec56d6",
+                {
+                    center: [17.6334887, 100.0913382],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_59c1ac89415845ce96479eca8b5fccb3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9a092d5a82c7462b981b0b5cfcec56d6);
+        
+    
+            var marker_2b9ff9772a8e44b6a6e0a71d78d1e471 = L.marker(
+                [17.6356345, 100.0921328],
+                {}
+            ).addTo(map_9a092d5a82c7462b981b0b5cfcec56d6);
+        
+    
+        var popup_b6bd184738a8446f9204f27ebf83a307 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5218fd5de52948ddac9417c4b4757922 = $(`<div id="html_5218fd5de52948ddac9417c4b4757922" style="width: 100.0%; height: 100.0%;"><i>Uttaradit Rajabhat University</i></div>`)[0];
+            popup_b6bd184738a8446f9204f27ebf83a307.setContent(html_5218fd5de52948ddac9417c4b4757922);
+        
+
+        marker_2b9ff9772a8e44b6a6e0a71d78d1e471.bindPopup(popup_b6bd184738a8446f9204f27ebf83a307)
+        ;
+
+        
+    
+    
+            var marker_9a6494c4f3ac489fb112e964b6a30397 = L.marker(
+                [17.6355671, 100.0939999],
+                {}
+            ).addTo(map_9a092d5a82c7462b981b0b5cfcec56d6);
+        
+    
+        var popup_694834e116314063abb43b7f3e9cdb78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b536b17365f4c7597c26e62acccaace = $(`<div id="html_5b536b17365f4c7597c26e62acccaace" style="width: 100.0%; height: 100.0%;"><b>Test02</b></div>`)[0];
+            popup_694834e116314063abb43b7f3e9cdb78.setContent(html_5b536b17365f4c7597c26e62acccaace);
+        
+
+        marker_9a6494c4f3ac489fb112e964b6a30397.bindPopup(popup_694834e116314063abb43b7f3e9cdb78)
+        ;
+
+        
+    
+</script>
